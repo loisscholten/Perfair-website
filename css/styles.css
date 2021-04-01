@@ -1,7 +1,10 @@
+NAVBAR GOES HERE
 .navbar {
-	background: #220A02;
+	background-color: #220A02;
 }
-
+.navback {
+	background:#220A02;
+}
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -13,6 +16,7 @@
     display: inline-block;
     float:none;
 }
+
 .nav-link {
 	color:#FCF7F3;
 	font-family: 'Aleo', serif;
@@ -32,6 +36,12 @@
 	padding-left: 5px;
 }
 
+.background {
+	background-image:url("../images/pagebackground.jpg");
+	background-color: #070404;
+	background-repeat: no-repeat;
+}
+
 .linkedin {
 	height: 20px;
 	width: auto;
@@ -39,17 +49,15 @@
 	padding-left: 5px;
 	
 }
+
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color: #607462;
 }
 
-.background {
-	background-image:url("../images/pagebackground.jpg");
-	background-color: #070404;
-	background-repeat: no-repeat;
-}
+BACKGROUND
 
+MAIN GOES HERE
 .container {
     width: 100%;
     padding-right: 200px;
@@ -79,7 +87,5 @@
     line-height: 60px;
     background-color:#220A02;
 	color: #F9ECDF;
-	padding-top:20px
+	padding-top:20px;
 }
-
-
