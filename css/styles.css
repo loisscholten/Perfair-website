@@ -9,7 +9,7 @@ NAVBAR GOES HERE
     float:none;
     margin:0 auto;
     display: block;
-    text-align: center;	
+    text-align: center;
 }
 
 .navbar-nav > li {
@@ -20,7 +20,7 @@ NAVBAR GOES HERE
 .nav-link {
 	color:#FCF7F3;
 	font-family: 'Aleo', serif;
-	font-weight: 700;	
+	font-weight: 700;
 }
 
 .insta {
@@ -47,7 +47,7 @@ NAVBAR GOES HERE
 	width: auto;
 	padding-botom: 3px;
 	padding-left: 5px;
-	
+
 }
 
 .navbar-nav .nav-item.active .nav-link,
