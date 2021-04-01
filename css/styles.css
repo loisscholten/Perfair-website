@@ -10,6 +10,10 @@
     float:none;
 }
 
+.navbar-nav > img {
+    height: auto;
+}
+
 .container {
     width: 100%;
     padding-right: 300px;
@@ -35,3 +39,43 @@
 	background-color: #A63C0E;
 	color: #F9ECDF;	
 }
+.center {
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;   
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+    
+/* Set a specific color for each brand */
+    
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+}  
