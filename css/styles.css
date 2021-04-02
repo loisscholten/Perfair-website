@@ -57,6 +57,10 @@ NAVBAR GOES HERE
 	text-align: center;
 }
 
+.about {
+	text-align: center;
+}
+
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color: #607462;
