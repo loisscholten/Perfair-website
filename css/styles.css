@@ -109,13 +109,14 @@ p {
   margin-right: auto;
   width: 50%;
 }
-.card {
-	background-color: #A63C0E;
-	color: #F9ECDF ;
-	text-align: center;
-	margin-left: 20px;
-	margin-right: 20px;
+
+.container{
+	margin-bottom: 40px;
 }
 
-
-
+.text-justify{
+	font-family: 'Aleo', serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 20px;	
+}
