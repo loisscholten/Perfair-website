@@ -16,6 +16,9 @@ NAVBAR GOES HERE
     display: inline-block;
     float:none;
 }
+.navbar-brand > img {
+	height: auto;
+}
 
 .nav-link {
 	color:#FCF7F3;
@@ -45,9 +48,17 @@ NAVBAR GOES HERE
 .linkedin {
 	height: 20px;
 	width: auto;
-	padding-botom: 3px;
+	padding-bottom: 3px;
 	padding-left: 5px;
 
+}
+
+.contact {
+	text-align: center;
+}
+
+.about {
+	text-align: center;
 }
 
 .navbar-nav .nav-item.active .nav-link,
