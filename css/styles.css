@@ -70,6 +70,11 @@ NAVBAR GOES HERE
     color: #607462;
 }
 
+.btncolor{
+	background-color: #607462;
+	color: #FFFFFF;	
+}
+
 BACKGROUND
 
 MAIN GOES HERE
@@ -106,7 +111,7 @@ MAIN GOES HERE
 }
 
 .carousel {
-	background-color: #A63C0E;
+	background-color:#D19259;
 	color: #F9ECDF;	
 }
 h1 {
