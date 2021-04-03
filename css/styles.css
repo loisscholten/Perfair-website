@@ -81,10 +81,6 @@ MAIN GOES HERE
 .jumbotron-image{
 	background-image: url(../images/event.png);
 	background-size: contain;
-	background-clip: content-box;
-	background-origin: content-box;
-	background-repeat: no-repeat;
-	background-position: center 0%;
 }
 .jumbotron {
 	position: relative;
@@ -95,6 +91,8 @@ MAIN GOES HERE
 }
 .textjumbotron {
 	color: #607462;
+	font-family: 'Aleo', serif;
+	font-weight: 700;
 }
 .container {
     width: 100%;
