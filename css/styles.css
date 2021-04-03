@@ -168,3 +168,32 @@ p {
 .secondimage{ 
 background-color:#D19259;
 }
+
+.heineke{ 
+	height: 135px;
+	width: 150px;
+}
+
+.customer-reviews{
+	font-family: 'Aleo', serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 50px;	
+	color: #607463;
+	margin-bottom: 40px;
+}
+
+.Name-brand{
+	font-family: 'Aleo', serif;
+	font-weight: 500 bold;
+	font-style: normal;
+	font-size: 20px;
+	color: black
+}
+
+.font-cond{ 
+font-family: 'Aleo', serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	color: black
