@@ -78,6 +78,24 @@ NAVBAR GOES HERE
 BACKGROUND
 
 MAIN GOES HERE
+.jumbotron-image{
+	background-image: url(../images/event.png);
+	background-size: contain;
+	background-clip: content-box;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-position: center 0%;
+}
+.jumbotron {
+	position: relative;
+	overflow: hidden;
+	background-image: url("../images/event.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.textjumbotron {
+	color: #607462;
+}
 .container {
     width: 100%;
     padding-right: 200px;
