@@ -1,4 +1,4 @@
-NAVBAR GOES HERE
+
 .navbar {
 	background-color: #220A02;
 }
@@ -39,11 +39,6 @@ NAVBAR GOES HERE
 	padding-left: 5px;
 }
 
-.background {
-	background-image:url("../images/pagebackground.jpg");
-	background-color: #070404;
-	background-repeat: no-repeat;
-}
 
 .linkedin {
 	height: 20px;
@@ -70,14 +65,31 @@ NAVBAR GOES HERE
     color: #607462;
 }
 
+.background {
+	background-image:url("../images/pagebackground.jpg");
+	
+}
+
+.toptext-corousel {
+	color: #607462;
+	font-family: 'Aleo', serif;
+	font-weight: 900;
+	text-shadow: 2px 2px 1px #220A02;
+}
+
+.middletext-corousel {
+	color: #F9ECDF;
+	font-family: 'Aleo', serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #220A02;
+}
+
 .btncolor{
 	background-color: #607462;
 	color: #FFFFFF;	
 }
 
-BACKGROUND
-
-MAIN GOES HERE
 .jumbotron-image{
 	background-image: url(../images/event.png);
 	background-size: contain;
@@ -116,6 +128,19 @@ MAIN GOES HERE
 	padding-top: 10px
 }
 
+.corouseltext {
+	font-family: 'Aleo', serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #220A02;
+	text-align:center;
+	text-justify:inter-word;
+}
+
+.flow-diagram {
+	width: 740px
+}
+
 .footer {
     bottom: 0;
     width: 100%;
@@ -126,10 +151,14 @@ MAIN GOES HERE
 	padding-top:20px;
 }
 
-.carousel {
-	background-color:#D19259;
-	color: #F9ECDF;	
+.carousel:cycle {
+
 }
+
+.carousel-padding {
+	padding-bottom:100px;
+}
+
 h1 {
 	text-align: center;
 }
@@ -144,6 +173,29 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.reviewlogo {
+	margin-left: 270px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.round	{
+	border-radius: 30px;
+}
+
+.jumbosize {
+	width: 100px;
+	height:auto;
+	margin-bottom: -20px;
+	margin-top: -20px;
+}
+
+.ikeasize {
+	width: 100px;
+	heigth:auto;
 }
 
 .container{
