@@ -16,6 +16,9 @@ NAVBAR GOES HERE
     display: inline-block;
     float:none;
 }
+.navbar-brand > img {
+	height: auto;
+}
 
 .nav-link {
 	color:#FCF7F3;
@@ -45,9 +48,21 @@ NAVBAR GOES HERE
 .linkedin {
 	height: 20px;
 	width: auto;
-	padding-botom: 3px;
+	padding-bottom: 3px;
 	padding-left: 5px;
 
+}
+
+.index {
+	text-align: center;
+}
+
+.contact {
+	text-align: center;
+}
+
+.about {
+	text-align: center;
 }
 
 .navbar-nav .nav-item.active .nav-link,
@@ -55,9 +70,30 @@ NAVBAR GOES HERE
     color: #607462;
 }
 
+.btncolor{
+	background-color: #607462;
+	color: #FFFFFF;	
+}
+
 BACKGROUND
 
 MAIN GOES HERE
+.jumbotron-image{
+	background-image: url(../images/event.png);
+	background-size: contain;
+}
+.jumbotron {
+	position: relative;
+	overflow: hidden;
+	background-image: url("../images/event.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.textjumbotron {
+	color: #607462;
+	font-family: 'Aleo', serif;
+	font-weight: 700;
+}
 .container {
     width: 100%;
     padding-right: 200px;
@@ -70,7 +106,7 @@ MAIN GOES HERE
 	font-weight: 700;
 	font-family: 'Aleo', serif;
 	color: #607463;
-}
+	}
 
 .intro_text {
 	font-family: 'Aleo', serif;
@@ -91,7 +127,7 @@ MAIN GOES HERE
 }
 
 .carousel {
-	background-color: #A63C0E;
+	background-color:#D19259;
 	color: #F9ECDF;	
 }
 h1 {
@@ -120,4 +156,15 @@ p {
 	font-style: italic;
 	font-size: 20px;	
 	margin-bottom: 40px;
+}
+.text-centered{
+	margin-left: 65pt;
+	margin-right: 50pt;
+	text-align: center;
+}
+.firstimage{
+	background-color:#D19259; 
+}
+.secondimage{ 
+background-color:#D19259;
 }
