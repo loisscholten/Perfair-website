@@ -261,10 +261,11 @@ background-color:#D19259;
 }
 
 .customer-reviews{
+	text-align:center;
 	font-family: 'Aleo', serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 46px;	
+	font-size: 46px;
 	color: #607463;
 	margin-bottom: 20px;
 	margin-top: 40px;
