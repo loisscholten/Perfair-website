@@ -90,7 +90,7 @@ MAIN GOES HERE
 	font-weight: 700;
 	font-family: 'Aleo', serif;
 	color: #607463;
-}
+	}
 
 .intro_text {
 	font-family: 'Aleo', serif;
@@ -140,4 +140,15 @@ p {
 	font-style: italic;
 	font-size: 20px;	
 	margin-bottom: 40px;
+}
+.text-centered{
+	margin-left: 65pt;
+	margin-right: 50pt;
+	text-align: center;
+}
+.firstimage{
+	background-color:#D19259; 
+}
+.secondimage{ 
+background-color:#D19259;
 }
