@@ -108,10 +108,11 @@
 }
 .container {
     width: 100%;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
     margin-right: auto;
     margin-left: auto;
+	margin-bottom: 50px;
 }
 .introduction {
 	padding-top: 30px;
@@ -138,7 +139,10 @@
 }
 
 .flow-diagram {
-	width: 740px
+	display:block;
+	width: 740px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer {
@@ -241,26 +245,41 @@ p {
 background-color:#D19259;
 }
 
-.heineke{ 
-	height: 135px;
-	width: 150px;
+.heineken{ 
+	height: 100px;
+	width: auto;
+}
+
+.dreamfields{ 
+	height: 100px;
+	width: auto;
+}
+
+.tomorrowland{ 
+	height: 100px;
+	width: auto;
 }
 
 .customer-reviews{
 	font-family: 'Aleo', serif;
-	font-weight: 500;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 50px;	
+	font-size: 46px;	
 	color: #607463;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	margin-top: 40px;
 }
 
+.bottom-page {
+	margin-bottom: 100px;
+}
 .Name-brand{
 	font-family: 'Aleo', serif;
 	font-weight: 500 bold;
 	font-style: normal;
 	font-size: 20px;
-	color: black
+	color: black;
+	margin-top: 20px;
 }
 
 .font-cond{ 
@@ -269,4 +288,8 @@ font-family: 'Aleo', serif;
 	font-style: normal;
 	font-size: 20px;
 	color: black
+	
+}
+.client-center {
+ text-align: center
 }
