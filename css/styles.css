@@ -199,7 +199,7 @@ p {
 
 .ikeasize {
 	width: 100px;
-	heigth:auto;
+	heigth: auto;
 }
 
 .container{
@@ -276,7 +276,7 @@ background-color:#D19259;
 }
 .Name-brand{
 	font-family: 'Aleo', serif;
-	font-weight: 500 bold;
+	font-weight: 500, bold;
 	font-style: normal;
 	font-size: 20px;
 	color: black;
