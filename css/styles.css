@@ -308,5 +308,9 @@ font-family: 'Aleo', serif;
 	width: 100%;
 	max-width: 800px;
   	height: auto;
-	
+}
+
+.picture-limit {
+	padding-left: 200px;
+	padding-right: 200px;
 }
