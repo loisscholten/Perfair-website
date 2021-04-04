@@ -291,8 +291,14 @@ font-family: 'Aleo', serif;
 .client-center {
  text-align: center
 }
-.perfairlogo {
-	width: 500pt;
-	margin-left: 90pt;
-	margin-right: auto;
+
+.responsive { 
+	width: 100%;
+	max-width: 400px;
+  	height: auto;
+}
+.responsiveimage { 
+	width: 100%;
+	max-width: 800px;
+  	height: auto;
 }
