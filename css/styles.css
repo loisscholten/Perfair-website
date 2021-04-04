@@ -314,3 +314,11 @@ font-family: 'Aleo', serif;
 	padding-left: 200px;
 	padding-right: 200px;
 }
+
+.ourteam-text{ 
+	font-family: 'Aleo', serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;	
+	margin-bottom: 40px;
+}
