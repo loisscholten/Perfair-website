@@ -1,4 +1,4 @@
-NAVBAR GOES HERE
+
 .navbar {
 	background-color: #220A02;
 }
@@ -39,11 +39,6 @@ NAVBAR GOES HERE
 	padding-left: 5px;
 }
 
-.background {
-	background-image:url("../images/pagebackground.jpg");
-	background-color: #070404;
-	background-repeat: no-repeat;
-}
 
 .linkedin {
 	height: 20px;
@@ -70,27 +65,61 @@ NAVBAR GOES HERE
     color: #607462;
 }
 
+.background {
+	background-image:url("../images/pagebackground.jpg");
+	
+}
+
+.toptext-corousel {
+	color: #607462;
+	font-family: 'Aleo', serif;
+	font-weight: 900;
+	text-shadow: 2px 2px 1px #220A02;
+}
+
+.middletext-corousel {
+	color: #F9ECDF;
+	font-family: 'Aleo', serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #220A02;
+}
+
 .btncolor{
 	background-color: #607462;
 	color: #FFFFFF;	
 }
 
-BACKGROUND
-
-MAIN GOES HERE
+.jumbotron-image{
+	background-image: url(../images/event.png);
+	background-size: contain;
+}
+.jumbotron {
+	position: relative;
+	overflow: hidden;
+	background-image: url("../images/event.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.textjumbotron {
+	color: #607462;
+	font-family: 'Aleo', serif;
+	font-weight: 700;
+}
 .container {
     width: 100%;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
     margin-right: auto;
     margin-left: auto;
+	margin-bottom: 50px;
 }
 .introduction {
 	padding-top: 30px;
 	font-weight: 700;
 	font-family: 'Aleo', serif;
 	color: #607463;
-}
+	}
 
 .intro_text {
 	font-family: 'Aleo', serif;
@@ -98,6 +127,22 @@ MAIN GOES HERE
 	text-align: justify;
 	text-justify:inter-word;
 	padding-top: 10px
+}
+
+.corouseltext {
+	font-family: 'Aleo', serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #220A02;
+	text-align:center;
+	text-justify:inter-word;
+}
+
+.flow-diagram {
+	display:block;
+	width: 740px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer {
@@ -110,10 +155,14 @@ MAIN GOES HERE
 	padding-top:20px;
 }
 
-.carousel {
-	background-color:#D19259;
-	color: #F9ECDF;	
+.carousel:cycle {
+
 }
+
+.carousel-padding {
+	padding-bottom:100px;
+}
+
 h1 {
 	text-align: center;
 }
@@ -130,8 +179,51 @@ p {
   width: 50%;
 }
 
+.reviewlogo {
+	margin-left: 270px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.round	{
+	border-radius: 30px;
+}
+
+.jumbosize {
+	width: 100px;
+	height:auto;
+	margin-bottom: -20px;
+	margin-top: -20px;
+}
+
+.ikeasize {
+	width: 100px;
+	heigth:auto;
+}
+
 .container{
 	margin-bottom: 40px;
+}
+
+.about-top-text {
+	font-family: 'Aleo', serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #220A02;
+	text-align:center;
+	text-justify:inter-word;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.about-bot-text {
+	font-family: 'Aleo', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #220A02;
+	text-align:center;
+	text-justify:inter-word;
 }
 
 .text-justify{
@@ -140,4 +232,65 @@ p {
 	font-style: italic;
 	font-size: 20px;	
 	margin-bottom: 40px;
+}
+.text-centered{
+	margin-left: 65pt;
+	margin-right: 50pt;
+	text-align: center;
+}
+.firstimage{
+	background-color:#D19259; 
+}
+.secondimage{ 
+background-color:#D19259;
+}
+
+.heineken{ 
+	height: 100px;
+	width: auto;
+}
+
+.dreamfields{ 
+	height: 100px;
+	width: auto;
+}
+
+.tomorrowland{ 
+	height: 100px;
+	width: auto;
+}
+
+.customer-reviews{
+	text-align:center;
+	font-family: 'Aleo', serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 46px;
+	color: #607463;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.bottom-page {
+	margin-bottom: 100px;
+}
+.Name-brand{
+	font-family: 'Aleo', serif;
+	font-weight: 500 bold;
+	font-style: normal;
+	font-size: 20px;
+	color: black;
+	margin-top: 20px;
+}
+
+.font-cond{ 
+font-family: 'Aleo', serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	color: black
+	
+}
+.client-center {
+ text-align: center
 }
