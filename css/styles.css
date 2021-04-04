@@ -178,11 +178,10 @@ p {
 .reviewlogo {
 	width: 100pt;
 	margin-left: 270pt;
-	margin-right: auto;
+	margin-right: 270pt;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	align-items: center;
-}
+	}
 
 .round	{
 	border-radius: 30px;
