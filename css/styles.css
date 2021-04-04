@@ -196,14 +196,14 @@ p {
 }
 
 .jumbosize {
-	width: 100px;
+	width: 300px;
 	height:auto;
-	margin-bottom: -20px;
+	margin-bottom: -90px;
 	margin-top: -20px;
 }
 
 .ikeasize {
-	width: 100px;
+	width: 500px;
 	height: auto;
 }
 
@@ -313,4 +313,12 @@ font-family: 'Aleo', serif;
 .picture-limit {
 	padding-left: 200px;
 	padding-right: 200px;
+}
+
+.ourteam-text{ 
+	font-family: 'Aleo', serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;	
+	margin-bottom: 40px;
 }
